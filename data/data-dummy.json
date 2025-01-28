@@ -1,0 +1,12 @@
+{
+  "headers": "SMP BUDHI MULIA",
+  "sayHi":"Selamat datang",
+  "about":[{
+    "title":"Tentang kami",
+    "content":"<b>Mencetak lulusan lulusan yang berakhlak</b> consectetur adipisicing elit. Sint excepturi numquam rem, dolores.",
+    "imageUrl":"/assets/2024-06-17 (1).jpg",
+    "misi":"<b>Sekolah</b> pencetak generasi <b>berakhlak mulia</b> dan <b>berilmu</b>",
+    "misi2":"Bukan hanya <b>ilmu pengetahuan</b> tetapi <b>akhlak</b> yang lebih di utamakan",
+    "imageUrl2":"/assets/2024-06-17 (2).jpg"
+  }]
+}
