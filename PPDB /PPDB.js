@@ -43,7 +43,11 @@ document.getElementById('form').addEventListener('submit', async function(event)
   try {
 // validasi data lebih lanjut 
     if (!data) {
-      alert("Heh gak boleh gitu ")
+      Swal.fire({
+  title: "Gagal!",
+  text: "Silahkan isi formulir dengan benar",
+  icon: "failed"
+});
     } else {
       // Kirim data
       const response = await fetch('https://server-ppdb.vercel.app/api/data/', {
@@ -56,6 +60,11 @@ document.getElementById('form').addEventListener('submit', async function(event)
 
       // Parsing respons ke JSON
       const result = await response.json();
+      Swal.fire({
+  title: "Berhasil!",
+  text: "Data berhasil di input,silahkan tunggu konfirmasi",
+  icon: "success"
+});
     }
   } catch (error) {
     console.error('Error:', error);
