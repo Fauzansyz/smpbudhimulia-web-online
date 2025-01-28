@@ -1,5 +1,10 @@
 document.getElementById('form').addEventListener('submit', async function(event) {
   event.preventDefault(); 
+  Swal.fire({
+  title: "Berhasil!",
+  text: "Data berhasil di input,silahkan tunggu konfirmasi",
+  icon: "success"
+});
   // Mencegah form submit secara default
   // Ambil data dari form
   const nama = document.getElementById('nama').value;
@@ -62,11 +67,7 @@ document.getElementById('form').addEventListener('submit', async function(event)
       const result = await response.json();
     }
   } catch (error) {
-    Swal.fire({
-  title: "Berhasil!",
-  text: "Data berhasil di input,silahkan tunggu konfirmasi",
-  icon: "success"
-});
+    
     console.error('Error:', error);
   }
 });
