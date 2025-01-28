@@ -60,13 +60,13 @@ document.getElementById('form').addEventListener('submit', async function(event)
 
       // Parsing respons ke JSON
       const result = await response.json();
-      Swal.fire({
+    }
+  } catch (error) {
+    Swal.fire({
   title: "Berhasil!",
   text: "Data berhasil di input,silahkan tunggu konfirmasi",
   icon: "success"
 });
-    }
-  } catch (error) {
     console.error('Error:', error);
   }
 });
