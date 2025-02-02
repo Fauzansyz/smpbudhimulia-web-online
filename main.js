@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
       navigator.share({
           title: 'SMP TERPADU BUDHI MULIA!',
           text: 'SMP Terpadu Budhi Mulia merupakan pilihan yang tepat bagi orang tua yang ingin memberikan pendidikan berkualitas tinggi kepada putra-putrinya. Dengan akreditasi A dan fasilitas yang memadai, sekolah ini siap mencetak generasi muda yang cerdas dan berakhlak mulia.',
-          url: "https://smpbudhimulia.42web.io/"
+          url: "https://smpbudhimulia.42web.io"
         })
         .then(() => console.log('Berhasil dibagikan'))
         .catch((error) => console.error('Gagal membagikan', error));
