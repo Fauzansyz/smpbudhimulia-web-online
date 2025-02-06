@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function page5() {
-    window.open("https://smpbudhimulia.vercel.app/BERITA/berita.html")
+    window.open("https://smpbudhimulia.vercel.app/BERITA/index.html")
   }
 
   function page6() {

@@ -4,7 +4,7 @@ const popupTitle = document.getElementById("popupTitle");
 const popupImage = document.getElementById("popupImage");
 const popupContent = document.getElementById("popupContent");
 const popupHeader = document.getElementById("popupHeader");
-
+const imageIcon = document.getElementById("image")
 fetch("https://server-ppdb.vercel.app/api/news")
   .then(response => response.json())
   .then(result => {
@@ -54,3 +54,7 @@ document.addEventListener("touchmove", (e) => {
 document.addEventListener("touchend", () => {
   isDragging = false;
 });
+
+imageIcon.addEventListener("click",()=>{
+  window.open("https://smpbudhimulia.vercel.app")
+})
