@@ -227,7 +227,9 @@ function validateAdmin() {
 }
   if(validateAdmin()){
         const button7 = document.getElementById("page7")
+        const button6 = document.getElementById("page6")
     button7.style.display = "block"
+    button6.style.display = "none"
   }else{
     const button7 = document.getElementById("page7")
     button7.style.display = "none"
