@@ -55,7 +55,7 @@ document.getElementById('form').addEventListener('submit', async function(event)
 });
     } else {
       // Kirim data
-      const response = await fetch('https://server-ppdb.vercel.app/api/data/', {
+      const response = await fetch('https://server-ppdb.vercel.app/api/api/data/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

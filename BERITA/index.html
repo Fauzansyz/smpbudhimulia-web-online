@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Berita Sekolah</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- 🔹 Navbar -->
+  <header>
+    <div class="nav">
+<img id="image" src="/assets/0C.png" alt="">
+      <h3>PORTAL BERITA</h3>
+<!--       <div class="navigation">
+<img id="share-btn" src="/icons/share_28dp_FFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+</div> -->
+    </div>
+    </div>
+  </header>
+
+  <section class="news-container">
+    <h2>Berita Terbaru</h2>
+    <div id="newsList"></div>
+  </section>
+  <div id="popup" class="popup">
+        <div class="popup-header" id="popupHeader">Geser ke atas/bawah untuk mengatur</div>
+        <span class="close-btn" onclick="closePopup()">×</span>
+        <div class="popup-content">
+            <h2 id="popupTitle"></h2>
+            <img id="popupImage" src="" alt="News Image">
+            <p id="popupContent"></p>
+        </div>
+    </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

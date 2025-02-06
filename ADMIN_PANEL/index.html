@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Berita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Upload Berita</h2>
+    <div class="card-input">
+    <input type="text" id="title" placeholder="Judul Berita" required>
+    <textarea id="content" placeholder="Isi Berita" required></textarea>
+    <input type="file" id="image" accept="image/*">
+    <img id="preview" alt="Preview Image">
+    <button onclick="uploadNews()">Upload</button>
+    <button onclick="goBack()">Kembali</button>
+    </div>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>

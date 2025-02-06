@@ -9,7 +9,7 @@
   <meta name="robots" content="index, follow">
   <meta name="description" content="SMP Terpadu Budhi Mulia merupakan pilihan yang tepat bagi orang tua yang ingin memberikan pendidikan berkualitas tinggi kepada putra-putrinya. Dengan akreditasi A dan fasilitas yang memadai, sekolah ini siap mencetak generasi muda yang cerdas dan berakhlak mulia.">
   <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
   <link rel="stylesheet" href="style/style.css">
   <title>SMP TERPADU BUDHI MULIA</title>
 </head>
@@ -23,13 +23,44 @@
   <header>
     <div class="container">
       <div class="nav">
-<!--       <img id="bg-nav" src="/assets/20250123_051727.png"> -->
+        <!--       <img id="bg-nav" src="/assets/20250123_051727.png"> -->
+        <div class="menu-container">
+          <!-- Icon Hamburger -->
+          <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+
+          <!-- Sidebar -->
+          <nav class="sidebar">
+            <ul>
+              <li>
+                <h2 id="page1"><b>Tentang kami</b></h2>
+              </li>
+              <li>
+                <h2 id="page2">Kontak</h2>
+              </li>
+              <li>
+                <h2 id="page3">gallery</h2>
+              </li>
+              <li>
+                <h2 id="page5">Berita</h2>
+              </li>
+              <li>
+                <h2 id="page7">Upload berita</h2>
+              </li>
+              <li>
+              </li>
+              <li id="login">
+                <h2 id="page6">Login</h2>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <img id="image" src="/assets/20241104_154046.png" alt="">
         <h3>SMP TERPADU BUDHI MULIA</h3>
         <div class="navigation">
-          <h2 id="page1"><b>Tentang kami</b></h2>
-          <h2 id="page2">Kontak</h2>
-          <h2 id="page3">gallery</h2>
           <img id="share-btn" src="/icons/share_28dp_FFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
         </div>
       </div>
@@ -74,7 +105,7 @@
           <h2 id="title2">Pendaftaran online</h2>
           <p class="phone">No telepon (TU): <a href="https://wa.me/+6283805909044" class="phoneNumber"> +62 838-0590-9044</a></p>
           <p class="online-ppdb">
-            Atau dengan : 
+            Atau dengan :
             <a href="/PPDB /PPDB.html" class="phoneNumber">PPDB</a>
           </p>
         </div>
